@@ -21,7 +21,7 @@ FaceBookLogin
     Press Keys                   id=pass        ENTER
 FaceBookLoginTest4
     Open Browser                 ${url}    ${Browser}
-    Set Browser Implicit Wait    5
+    Set Browser Implicit Wait    4
     Input Text                   name=email     @{CREDENTIALS}[0]
     Input Text                   id=pass        @{CREDENTIALS}[1]
     Press Keys                   id=passed        ENTER
