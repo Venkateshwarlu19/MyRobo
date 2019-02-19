@@ -19,6 +19,12 @@ FaceBookLogin
     Input Text                   name=email     @{CREDENTIALS}[0]
     Input Text                   id=pass        @{CREDENTIALS}[1]
     Press Keys                   id=pass        ENTER
+FaceBookLogin1
+    Open Browser                 ${url}    ${Browser}
+    Set Browser Implicit Wait    5
+    Input Text                   name=email     @{CREDENTIALS}[0]
+    Input Text                   id=pass        @{CREDENTIALS}[1]
+    Press Keys                   id=pass        ENTER
 *** Variables ***
 ${url}    https://www.facebook.com/ 
 ${Browser}    chrome
