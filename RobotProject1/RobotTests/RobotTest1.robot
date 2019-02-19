@@ -24,7 +24,7 @@ FaceBookLogin1
     Set Browser Implicit Wait    5
     Input Text                   name=email     @{CREDENTIALS}[0]
     Input Text                   id=pass        @{CREDENTIALS}[1]
-    Press Keys                   id=pass        ENTER
+    Press Keys                   id=pas        ENTER
 *** Variables ***
 ${url}    https://www.facebook.com/ 
 ${Browser}    chrome
