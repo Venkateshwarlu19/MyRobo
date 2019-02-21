@@ -9,7 +9,7 @@ FirstSeleniumTest
     Open Browser                 https://google.com    ${Browser}
     Maximize Browser Window
     wait until page contains     Gmail    
-    Set Browser Implicit Wait    4
+    Set Browser Implicit Wait    3
     GoogleSearch
     # Click Button    name=btnK            
     Close Browser
@@ -17,7 +17,7 @@ FirstSeleniumTest
 FaceBookLogin
     Open Browser                 ${url}    ${Browser}
     Maximize Browser Window
-    Set Browser Implicit Wait    4
+    Set Browser Implicit Wait    3
     Input Text                   name=email     @{CREDENTIALS}[0]
     Input Text                   id=pass        &{LOGINDATA}[password]
     Press Keys                   id=pass        ENTER
