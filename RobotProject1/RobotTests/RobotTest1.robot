@@ -9,7 +9,7 @@ FirstSeleniumTest
     Open Browser                 https://google.com    ${Browser}
     Maximize Browser Window
     wait until page contains     Gmail    
-    Set Browser Implicit Wait    3
+    Set Browser Implicit Wait    6
     GoogleSearch
     # Click Button    name=btnK            
     Close Browser
